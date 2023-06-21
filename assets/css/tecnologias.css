@@ -14,9 +14,9 @@
 
 #tecnologias img:hover {
     filter: brightness(110%);
-    cursor: url('../assets/img/icons/cursorbombilla.png'), default;
+    cursor: url('../img/icons/cursorbombilla.png'), default;
 }
 
 #tecnologias:hover {
-    cursor: url('../assets/img/icons/cursorbombillaapagado.png'), default;
+    cursor: url('../img/icons/cursorbombillaapagado.png'), default;
 }
