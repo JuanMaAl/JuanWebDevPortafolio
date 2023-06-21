@@ -1,12 +1,13 @@
 #contacto {
-    margin-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 #contacto a {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 32px;
-    color: var(--primary);
+    color: var(--white);
+    text-decoration: none;
 }
 
 #contacto a:hover {
