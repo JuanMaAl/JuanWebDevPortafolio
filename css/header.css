@@ -14,3 +14,7 @@ header video {
     min-height: 100%;
     opacity: 0.2;
 }
+
+.logo-small {
+    margin-right: 10px;
+}
