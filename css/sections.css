@@ -3,8 +3,8 @@ html {
 }
 
 section {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 #navbar, section.even {
@@ -28,5 +28,5 @@ section.even hr {
 }
 
 section hr {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }

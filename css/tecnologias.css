@@ -1,0 +1,14 @@
+#tecnologias > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 1rem;
+}
+
+#tecnologias img{
+    border-radius: 1rem;
+    max-width: 10rem;
+    cursor: context-menu;
+}
+
+
