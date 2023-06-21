@@ -9,15 +9,14 @@
     border-radius: 1rem;
     max-width: 10rem;
     filter: brightness(70%);
+    transition: filter ease 1s cursor ease 1s;
 }
 
 #tecnologias img:hover {
     filter: brightness(110%);
     cursor: url('../assets/img/icons/cursorbombilla.png'), default;
-    transition: filter 1s ease cursor 1s ease;
 }
 
 #tecnologias:hover {
     cursor: url('../assets/img/icons/cursorbombillaapagado.png'), default;
-
 }

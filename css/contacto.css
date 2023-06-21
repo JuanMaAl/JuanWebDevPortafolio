@@ -1,0 +1,14 @@
+#contacto {
+    margin-bottom: 20px;
+}
+
+#contacto a {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 32px;
+    color: var(--primary);
+}
+
+#contacto a:hover {
+    color: var(--black);
+}
