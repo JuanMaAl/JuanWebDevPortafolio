@@ -5,10 +5,19 @@
     margin: 1rem;
 }
 
-#tecnologias img{
+#tecnologias img {
     border-radius: 1rem;
     max-width: 10rem;
-    cursor: context-menu;
+    filter: brightness(70%);
 }
 
+#tecnologias img:hover {
+    filter: brightness(110%);
+    cursor: url('../assets/img/icons/cursorbombilla.png'), default;
+    transition: filter 1s ease cursor 1s ease;
+}
 
+#tecnologias:hover {
+    cursor: url('../assets/img/icons/cursorbombillaapagado.png'), default;
+
+}
