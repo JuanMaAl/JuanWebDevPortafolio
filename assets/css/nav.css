@@ -12,12 +12,12 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: var(--black);
+    color: var(--white);
 }
 
 #navbar div a:hover {
-    color: var(--white);
-    transition: color .3s ease, color .3s ease;
+    background-color: var(--primary-dark);
+    transition: background-color .3s ease, background-color .3s ease;
 }
 
 #navbar button {
@@ -28,6 +28,11 @@
     margin: .7rem;
     border: none;
     cursor: pointer;
+}
+
+#navbar button:hover {
+    background-color: var(--primary-dark);
+    transition: background-color .3s ease, background-color .3s ease;
 }
 
 #navbar.open button {
