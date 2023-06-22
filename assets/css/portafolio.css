@@ -11,6 +11,16 @@
     cursor: pointer;
 }
 
+@media only screen and (max-width: 500px) {
+    #portafolio button {
+        width: 250px;
+        min-height: 200px;
+    }
+    #portafolio img {
+        width: 246px;
+    }
+}
+
 #portafolio img {
     display: block;
     max-height: 300px;
@@ -72,4 +82,22 @@
 #portafolio button:hover:after {
     top: 35%;
     opacity: .75;
+}
+
+@media only screen and (min-width: 1201px){
+    #portafolio > div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2rem;
+        margin: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    #portafolio > div{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        margin: 1rem;
+    }
 }

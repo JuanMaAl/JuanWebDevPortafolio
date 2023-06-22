@@ -1,8 +1,25 @@
-#tecnologias > div {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 2rem;
-    margin: 1rem;
+@media only screen and (min-width: 801px){
+    #tecnologias > div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 2rem;
+        margin: 1rem;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    #tecnologias > div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+        margin: 1rem;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #tecnologias img{
+        width: 120px;
+    }
 }
 
 #tecnologias img {
@@ -20,3 +37,4 @@
 #tecnologias:hover {
     cursor: url('../img/icons/cursorbombillaapagado.png'), default;
 }
+
