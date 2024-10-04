@@ -9,11 +9,23 @@
     })
 
     boton2.addEventListener('click', () => {
-        open('piano-angular/index.html');
+        open('https://github.com/JuanMaAl/caissateca');
     })
 
     boton3.addEventListener('click', () => {
-        open('404-not-found-master/404-notFound.html');
+        open('https://github.com/JuanMaAl/Calculadora-Simple-React');
+    })
+
+    boton4.addEventListener('click', () => {
+        open('https://github.com/JuanMaAl/PiscineReload');
+    })
+
+    boton5.addEventListener('click', () => {
+        open('https://github.com/JuanMaAl/libft_42bcn');
+    })
+
+    boton6.addEventListener('click', () => {
+        open('https://github.com/JuanMaAl/crud-js');
     })
 
 })()
