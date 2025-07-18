@@ -13,19 +13,19 @@
     })
 
     boton3.addEventListener('click', () => {
-        open('https://github.com/JuanMaAl/Calculadora-Simple-React');
+        open('https://github.com/JuanMaAl/OpeningsXStructs');
     })
 
     boton4.addEventListener('click', () => {
-        open('https://github.com/JuanMaAl/PiscineReload');
-    })
-
-    boton5.addEventListener('click', () => {
         open('https://github.com/JuanMaAl/libft_42bcn');
     })
 
+    boton5.addEventListener('click', () => {
+        open('https://github.com/JuanMaAl/catpidog');
+    })
+
     boton6.addEventListener('click', () => {
-        open('https://github.com/JuanMaAl/crud-js');
+        open('https://github.com/JuanMaAl/catpidog-vue');
     })
 
 })()
